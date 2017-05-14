@@ -144,3 +144,23 @@ h3 {
   color: white;
   border-radius: 0.25em 0.25em 0 0;
 }
+
+.cards .population,
+.cards .avgtemp,
+.cards .restaurants,
+.cards .green,
+.cards .distance
+ {
+  font-size: 25px;
+  background: #FF5A19;
+  color: white;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+
+.c-bg,
+.percnt-bg
+ {
+  background: #FF5A19;
+  padding: 9px 5px 2px 0px;
+}
