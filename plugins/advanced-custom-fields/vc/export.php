@@ -22,7 +22,7 @@ if(function_exists("register_field_group"))
 			array (
 				'key' => 'field_591891ed70af1',
 				'label' => 'Average temperature',
-				'name' => 'average_temperature',
+				'name' => 'avg_temp',
 				'type' => 'text',
 				'instructions' => 'Add the average temperature of the city across the year.',
 				'required' => 1,
