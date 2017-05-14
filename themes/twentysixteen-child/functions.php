@@ -13,4 +13,14 @@ function twentysixteen_child_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'twentysixteen_child_enqueue_styles' );
 
+// add scripts
+function add_isotope() {
+	// add Isotope min plugin file & custom code file
+	wp_register_script( 'isotope', get_stylesheet_directory_uri() . '/js/isotope.pkgd.min.js', array('jquery'), '20170514', true );
+	wp_register_script( 'isotope-custom', get_stylesheet_directory_uri() . '/js/isotope.custom.js', array('jquery', 'isotope'), '20170514', true );
+
+	wp_enqueue_script( 'isotope-custom' );
+	}
+add_action( 'wp_enqueue_scripts', 'add_isotope' );
+
 ?>
