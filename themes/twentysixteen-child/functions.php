@@ -10,6 +10,9 @@ function twentysixteen_child_enqueue_styles() {
         wp_get_theme()->get('Version')
 	);
 
+  // import Google font
+  wp_enqueue_style('twentysixteen_child_fonts', 'https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 }
 add_action( 'wp_enqueue_scripts', 'twentysixteen_child_enqueue_styles' );
 
