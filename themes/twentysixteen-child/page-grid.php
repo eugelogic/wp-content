@@ -7,7 +7,7 @@ Template Name: Grid Page
 
 get_header(); ?>
 
-<h1>Grid Page</h1>
+<h1><?php the_title();?></h1>
 
 <div class="button-group sort-by-button-group">
   <button class="button is-checked" data-sort-value="original-order">-Random-</button>
@@ -19,56 +19,33 @@ get_header(); ?>
   <button class="button" data-sort-value="distance">Distance from London</button>
 </div>
 
+<?php $loop = new WP_Query( array('post_type' => 'cards', 'order_by' => 'post_id')); ?>
+
+<?php if ( $loop->have_posts() ) : ?>
+
 <div class="grid">
 
-  <!-- 1st row 1st column
-  ================================================== -->
-  <div class="cards">
-    <h3 class="name">Lisbon</h3>
-    <figure><img src="#" alt="Deafult Image"></figure>
-    <p>Population:<span class="population"> 1,750,000</span></p>
-    <p>Average temp:<span class="avgtemp"> 23'</span> C</p>
-    <p>Restaurants:<span class="restaurants"> 8,750</span></p>
-    <p>Green space:<span class="green"> 28%</span></p>
-    <p>From London:<span class="distance"> 4,500 miles</span></p>
-  </div><!-- cards -->
+<?php while( $loop->have_posts() ) : $loop->the_post(); ?>
 
-  <!-- 1st row 2nd column
-  ================================================== -->
   <div class="cards">
-    <h3 class="name">La Paz</h3>
-    <figure><img src="#" alt="Deafult Image"></figure>
-    <p>Population:<span class="population"> 1,200,000</span></p>
-    <p>Average temp:<span class="avgtemp"> 9'</span> C</span></p>
-    <p>Restaurants:<span class="restaurants"> 1,250</p>
-    <p>Green space:<span class="green"> 31%</span></p>
-    <p>From London:<span class="distance"> 12,750 miles</span></p>
-  </div><!-- cards -->
+    <h3 class="name"><?php the_title(); ?></h3>
+      <?php
+        if ( has_post_thumbnail() ) {
+        the_post_thumbnail();
+        } else {
+        echo  '<img src="' . get_stylesheet_directory_uri() . '/img/Lost.jpg" alt="Deafult Image">'; }
+      ?>
+    <p>Population:<span class="population"> <?php the_field(population); ?></span></p>
+    <p>Average temp:<span class="avgtemp"> <?php the_field(avg_temp); ?></span> C</span></p>
+    <p>Restaurants:<span class="restaurants"> <?php the_field(restaurants); ?></span></p>
+    <p>Green space:<span class="green"> <?php the_field(green_space); ?></span>&percnt;</span></p>
+    <p>From London:<span class="distance"> <?php the_field(distance); ?></span> miles</span></p>
+  </div>
 
-  <!-- 1st row 3rd column
-  ================================================== -->
-  <div class="cards">
-    <h3 class="name">Moscow</h3>
-    <figure><img src="#" alt="Deafult Image"></figure>
-    <p>Population:<span class="population"> 6,700,000</span></p>
-    <p>Average temp:<span class="avgtemp"> 5'</span> C</p>
-    <p>Restaurants:<span class="restaurants"> 2,500</span></p>
-    <p>Green space:<span class="green"> 19%</span></p>
-    <p>From London:<span class="distance"> 7,300 miles</span></p>
-  </div><!-- cards -->
+<?php endwhile; ?>
 
-  <!-- 1st row 4th column
-  ================================================== -->
-  <div class="cards">
-    <h3 class="name">Singapore</h3>
-    <figure><img src="#" alt="Deafult Image"></figure>
-    <p>Population:<span class="population"> 3,500,000</span></p>
-    <p>Average temp:<span class="avgtemp"> 21'</span> C</p>
-    <p>Restaurants:<span class="restaurants"> 750</span></p>
-    <p>Green space:<span class="green"> 8%</span></p>
-    <p>From London:<span class="distance"> 9,500 miles</span></p>
-  </div><!-- cards -->
+</div>
 
-</div><!-- grid -->
+<?php endif; ?>
 
 <?php get_footer();?>
