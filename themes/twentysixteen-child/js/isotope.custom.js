@@ -11,9 +11,9 @@ var $grid = $('.grid').isotope({
     name: '.name',
     symbol: '.symbol',
     population: '.population parseInt',
-    avgtemp: '.avgtemp parseInt',
+    avgtemp: '.avgtemp parseFloat',
     restaurants: '.restaurants parseInt',
-    green: '.green parseInt',
+    green: '.green parseFloat',
     distance: '.distance parseInt'
   }
 });
