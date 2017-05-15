@@ -27,25 +27,25 @@ along with "Top Trumps Custom Post Types" plugin. If not, see https://www.gnu.or
 
 function top_trumps() {
   $labels = array(
-    'name'               => _x( 'Cards', 'post type general name', 'top-trumps-ctp' ),
-    'singular_name'      => _x( 'Card', 'post type singular name', 'top-trumps-ctp' ),
-    'menu_name'          => _x( 'Cards', 'admin menu', 'top-trumps-ctp' ),
-    'name_admin_bar'     => _x( 'Card', 'add new on admin bar', 'top-trumps-ctp' ),
-    'add_new'            => _x( 'Add New', 'card', 'top-trumps-ctp' ),
-    'add_new_item'       => __( 'Add New Card', 'top-trumps-ctp' ),
-    'new_item'           => __( 'New Card', 'top-trumps-ctp' ),
-    'edit_item'          => __( 'Edit Card', 'top-trumps-ctp' ),
-    'view_item'          => __( 'View Card', 'top-trumps-ctp' ),
-    'all_items'          => __( 'All Cards', 'top-trumps-ctp' ),
-    'search_items'       => __( 'Search Cards', 'top-trumps-ctp' ),
-    'parent_item_colon'  => __( 'Parent Cards:', 'top-trumps-ctp' ),
-    'not_found'          => __( 'No cards found.', 'top-trumps-ctp' ),
-    'not_found_in_trash' => __( 'No cards found in Trash.', 'top-trumps-ctp' )
+    'name'               => _x( 'Cards', 'post type general name', 'top-trumps-cpt' ),
+    'singular_name'      => _x( 'Card', 'post type singular name', 'top-trumps-cpt' ),
+    'menu_name'          => _x( 'Cards', 'admin menu', 'top-trumps-cpt' ),
+    'name_admin_bar'     => _x( 'Card', 'add new on admin bar', 'top-trumps-cpt' ),
+    'add_new'            => _x( 'Add New', 'card', 'top-trumps-cpt' ),
+    'add_new_item'       => __( 'Add New Card', 'top-trumps-cpt' ),
+    'new_item'           => __( 'New Card', 'top-trumps-cpt' ),
+    'edit_item'          => __( 'Edit Card', 'top-trumps-cpt' ),
+    'view_item'          => __( 'View Card', 'top-trumps-cpt' ),
+    'all_items'          => __( 'All Cards', 'top-trumps-cpt' ),
+    'search_items'       => __( 'Search Cards', 'top-trumps-cpt' ),
+    'parent_item_colon'  => __( 'Parent Cards:', 'top-trumps-cpt' ),
+    'not_found'          => __( 'No cards found.', 'top-trumps-cpt' ),
+    'not_found_in_trash' => __( 'No cards found in Trash.', 'top-trumps-cpt' )
   );
 
   $args = array(
     'labels'             => $labels,
-    'description'        => __( 'Description.', 'top-trumps-ctp' ),
+    'description'        => __( 'Description.', 'top-trumps-cpt' ),
     'public'             => true,
     'publicly_queryable' => true,
     'show_ui'            => true,
