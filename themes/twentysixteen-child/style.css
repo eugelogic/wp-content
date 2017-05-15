@@ -163,13 +163,6 @@ h3 {
   margin-left: 5px;
 }
 
-.c-bg,
-.percnt-bg
- {
-  background: #FF5A19;
-  padding: 9px 5px 2px 0px;
-}
-
 /*--------------------------------------------------------------
 # Image Overlay
 --------------------------------------------------------------*/
@@ -193,8 +186,6 @@ h3 {
   position: absolute;
   top: 62px;
   left: 58px;
-  /* transform: translate(-45%, -45%);*/
-  /*-ms-transform: translate(-45%, -45%)*/
 }
 
 .grid .cards figure:hover img {
