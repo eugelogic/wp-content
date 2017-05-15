@@ -29,12 +29,17 @@ get_header(); ?>
 
   <div class="cards">
     <h3 class="name"><?php the_title(); ?></h3>
+    <figure>
       <?php
         if ( has_post_thumbnail() ) {
         the_post_thumbnail();
         } else {
         echo  '<img src="' . get_stylesheet_directory_uri() . '/img/Lost.jpg" alt="Deafult Image">'; }
       ?>
+      <div class="img-overlay">
+          <a class="text-overlay" href="<?php the_field(booking_link); ?>" target="_blank">BOOK TRIP</a>
+      </div><!-- img-overlay -->
+    </figure>
     <p>Population:<span class="population"> <?php the_field(population); ?></span></p>
     <p>Average temp:<span class="avgtemp"> <?php the_field(avg_temp); ?></span> C</span></p>
     <p>Restaurants:<span class="restaurants"> <?php the_field(restaurants); ?></span></p>
