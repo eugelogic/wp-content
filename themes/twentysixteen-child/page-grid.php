@@ -11,14 +11,15 @@ get_header(); ?>
 
 <!-- SORTING BUTTONS
 ================================================== -->
+<p class="sorting-msg">Click any of the buttons below to sort accordingly.</p>
 <div class="button-group sort-by-button-group">
-  <button class="button is-checked" data-sort-value="original-order">-Random-</button>
-  <button class="button" data-sort-value="name">Name</button>
+  <button class="button is-checked" data-sort-value="original-order">-Default-</button>
   <button class="button" data-sort-value="population">Population</button>
   <button class="button" data-sort-value="avgtemp">Avg temp</button>
   <button class="button" data-sort-value="restaurants">Restaurants</button>
   <button class="button" data-sort-value="green">Green space</button>
   <button class="button" data-sort-value="distance">Distance from London</button>
+  <button class="button" data-sort-value="name">Name</button>
 </div>
 
 <!-- CUSTOM LOOP TO SHOW CPT ON GRID
