@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Top Trumps Custom Post Types
  * Description: A simple plugin that adds Top Trumps custom post types.
- * Version: 0.1.20170514
+ * Version: 0.1.20170515
  * Author: Eugene Molari
  * Author URI:  https://github.com/eugelogic
  * License: GPL2
@@ -72,10 +72,10 @@ function my_rewrite_flush() {
     // Note: "add" is written with quotes, as CPTs don't get added to the DB,
     // They are only referenced in the post_type column with a post entry,
     // when you add a post of this CPT.
-    my_cpt_init();
+    top_trumps();
 
     // ATTENTION: This is *only* done during plugin activation hook in this example!
     // You should *NEVER EVER* do this on every page load!!
-    top_trumps();
+    flush_rewrite_rules();
 }
 register_activation_hook( __FILE__, 'my_rewrite_flush' );
