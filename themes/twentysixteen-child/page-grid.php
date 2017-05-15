@@ -43,7 +43,11 @@ get_header(); ?>
     <p>Population:<span class="population"> <?php the_field(population); ?></span></p>
     <p>Average temp:<span class="avgtemp"> <?php the_field(avg_temp); ?></span> C</span></p>
     <p>Restaurants:<span class="restaurants"> <?php the_field(restaurants); ?></span></p>
-    <p>Green space:<span class="green"> <?php the_field(green_space); ?></span>&percnt;</span></p>
+    <p>Green space:<span class="green"> <?php the_field(green_space); ?></span> &percnt;</span>
+      <span class="tooltip">&#9432;
+        <span class="tooltiptext"><?php the_field(green_space_tooltip); ?></span>
+      </span><!-- tooltip -->
+    </p>
     <p>From London:<span class="distance"> <?php the_field(distance); ?></span> miles</span></p>
   </div>
 
