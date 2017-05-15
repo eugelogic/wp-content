@@ -5,6 +5,19 @@ if(function_exists("register_field_group"))
 		'title' => 'Top Trumps Cards',
 		'fields' => array (
 			array (
+				'key' => 'field_5919756159915',
+				'label' => 'Booking Link',
+				'name' => 'booking_link',
+				'type' => 'text',
+				'instructions' => 'Add the full url link of the target page where the booking would take place.',
+				'default_value' => '#',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'none',
+				'maxlength' => '',
+			),
+			array (
 				'key' => 'field_591891d370af0',
 				'label' => 'Population',
 				'name' => 'population',
