@@ -9,6 +9,8 @@ get_header(); ?>
 
 <h1><?php the_title();?></h1>
 
+<!-- SORTING BUTTONS
+================================================== -->
 <div class="button-group sort-by-button-group">
   <button class="button is-checked" data-sort-value="original-order">-Random-</button>
   <button class="button" data-sort-value="name">Name</button>
@@ -19,6 +21,8 @@ get_header(); ?>
   <button class="button" data-sort-value="distance">Distance from London</button>
 </div>
 
+<!-- CUSTOM LOOP TO SHOW CPT ON GRID
+================================================== -->
 <?php $loop = new WP_Query( array('post_type' => 'cards', 'order_by' => 'post_id')); ?>
 
 <?php if ( $loop->have_posts() ) : ?>
@@ -27,6 +31,8 @@ get_header(); ?>
 
 <?php while( $loop->have_posts() ) : $loop->the_post(); ?>
 
+  <!-- CARDS
+  ================================================== -->
   <div class="cards">
     <h3 class="name"><?php the_title(); ?></h3>
     <figure>
