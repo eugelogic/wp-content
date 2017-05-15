@@ -48,7 +48,7 @@ get_header(); ?>
       </div><!-- img-overlay -->
     </figure>
     <p>Population:<span class="population"> <?php the_field(population); ?></span></p>
-    <p>Average temp:<span class="avgtemp"> <?php the_field(avg_temp); ?></span> C</span></p>
+    <p>Average temp:<span class="avgtemp"> <?php the_field(avg_temp); ?>&deg;</span> C</span></p>
     <p>Restaurants:<span class="restaurants"> <?php the_field(restaurants); ?></span></p>
     <p>Green space:<span class="green"> <?php the_field(green_space); ?></span> &percnt;</span>
       <span class="tooltip">&#9432;
