@@ -1,8 +1,10 @@
 # wp-content
 ### Top Trump Tech Challenge
 
-Theme = World Cities
 http://top-tramps.webjigsaw.net/
+
+Theme = World Cities
+
 Main Features:
 - [WordPress](https://wordpress.org/)
 - [Twenty Sixteen child theme](https://wordpress.org/themes/twentysixteen/)
