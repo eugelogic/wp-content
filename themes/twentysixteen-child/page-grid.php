@@ -24,7 +24,7 @@ get_header(); ?>
 
 <!-- CUSTOM LOOP TO SHOW CPT ON GRID
 ================================================== -->
-<?php $loop = new WP_Query( array('post_type' => 'cards', 'order_by' => 'post_id')); ?>
+<?php $loop = new WP_Query( array('post_type' => 'cards', 'order_by' => 'post_id', 'posts_per_page' => 24)); ?>
 
 <?php if ( $loop->have_posts() ) : ?>
 
