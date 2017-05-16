@@ -13,7 +13,7 @@ get_header(); ?>
 ================================================== -->
 <p class="sorting-msg">Click any of the buttons below to sort accordingly.</p>
 <div class="button-group sort-by-button-group">
-  <button class="button is-checked" data-sort-value="original-order">-Default-</button>
+  <button class="button is-checked" data-sort-value="original-order">-Reset-</button>
   <button class="button" data-sort-value="population">Population</button>
   <button class="button" data-sort-value="avgtemp">Avg temp</button>
   <button class="button" data-sort-value="restaurants">Restaurants</button>
