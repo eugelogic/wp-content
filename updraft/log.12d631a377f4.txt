@@ -1,0 +1,191 @@
+0000.000 (0) Opened log file at time: Tue, 16 May 2017 12:22:40 +0000 on http://cities-top-tramps
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.1 WP: 4.7.4 PHP: 7.1.1 (apache2handler, Darwin Eugenes-MacBook-Pro.local 16.5.0 Darwin Kernel Version 16.5.0: Fri Mar  3 16:52:33 PST 2017; root:xnu-3789.51.2~3/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24M | 14M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 78058.1 MB
+0000.018 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.020 (0) Semaphore (fd, tt_options) being initialised
+0000.038 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.042 (0) Set semaphore last lock (fd) time to 2017-05-16 12:22:40
+0000.042 (0) Semaphore lock (fd) complete
+0000.048 (0) Backup run: resumption=0, nonce=12d631a377f4, begun at=1494937360 (0s ago), job type=backup
+0000.051 (0) Scheduling a resumption (1) after 300 seconds (1494937660) in case this run gets aborted
+0000.090 (0) Checking if we have a zip executable available
+0000.092 (0) Testing: /usr/bin/zip
+0000.107 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.108 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.109 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.110 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.111 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.130 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.132 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.148 (0) Working binary zip found: /usr/bin/zip
+0000.151 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.151 (0) Creation of backups of directories: beginning
+0000.163 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.241 (0) Total entities for the zip file: 201 directories, 1303 files (0 skipped as non-modified), 22.9 MB
+0000.254 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.259 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.262 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.266 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.269 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.270 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.9 MB, 1303 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.416 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: size is now: 6.10 MB
+0001.422 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 600 files added (on-disk size: 6222.4 KB)
+0001.426 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 700 files added (on-disk size: 6222.4 KB)
+0001.431 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 800 files added (on-disk size: 6222.4 KB)
+0001.435 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 900 files added (on-disk size: 6222.4 KB)
+0001.438 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 1000 files added (on-disk size: 6222.4 KB)
+0001.439 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 1303 files batched, 501 (1002) added so far); re-opening (prior size: 6222.4 KB)
+0001.691 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 1100 files added (on-disk size: 7022.5 KB)
+0001.696 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 1200 files added (on-disk size: 7022.5 KB)
+0001.700 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip.tmp: 1300 files added (on-disk size: 7022.5 KB)
+0002.047 (0) Created plugins zip (0) - 7355.5 KB in 1.9 s (3908.5 KB/s) (sha1: 3b46c551fa53b304a553724d06115d68ff54af30, sha256: 4fc37cdc3d51d629e9ff65018e5b4beb84821eab606a60a0fdbec327fb28cf97)
+0002.050 (0) Beginning creation of dump of themes (split every: 400 MB)
+0002.054 (0) Total entities for the zip file: 10 directories, 55 files (0 skipped as non-modified), 0.9 MB
+0002.123 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-themes.zip.tmp: size is now: 0.70 MB
+0002.146 (0) Created themes zip (0) - 669.2 KB in 0.1 s (7106.1 KB/s) (sha1: 20591543aeebc849b64f5257219484cf8d79d02a, sha256: 74d391b964782e189111ac944214c13519197cb37341774fc1bd41bcaf106c39)
+0002.148 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0002.149 (0) Looking for candidates to back up in: /Users/Eugene/Documents/MAMP PRO/cities-top-tramps/wp-content/uploads
+0002.150 (0) finding files: .DS_Store: adding to list (1)
+0002.151 (0) finding files: 2017: adding to list (2)
+0002.152 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0002.155 (0) Total entities for the zip file: 2 directories, 14 files (0 skipped as non-modified), 0.4 MB
+0002.195 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-uploads.zip.tmp: size is now: 0.40 MB
+0002.211 (0) Created uploads zip (0) - 384.2 KB in 0.1 s (6592.7 KB/s) (sha1: d2a6c75e322ee40d8f2f3aa44282ff42685c3099, sha256: 05794ad4ba393f88a03fadb3563a7a224e5d4f2ec3cb48d0157f78c79d9e34b2)
+0002.214 (0) Beginning backup of other directories found in the content directory (index: 0)
+0002.215 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0002.216 (0) Looking for candidates to back up in: /Users/Eugene/Documents/MAMP PRO/cities-top-tramps/wp-content
+0002.217 (0) finding files: .DS_Store: adding to list (1)
+0002.217 (0) finding files: .git: adding to list (2)
+0002.218 (0) finding files: index.php: adding to list (3)
+0002.219 (0) finding files: languages: adding to list (4)
+0002.219 (0) finding files: plugins: skipping: this is the plugins directory
+0002.220 (0) finding files: README.md: adding to list (5)
+0002.221 (0) finding files: themes: skipping: this is the themes directory
+0002.222 (0) finding files: updraft: skipping: this is the updraft directory
+0002.223 (0) finding files: upgrade: skipping: excluded by options
+0002.223 (0) finding files: uploads: skipping: this is the uploads directory
+0002.292 (0) Total entities for the zip file: 222 directories, 501 files (0 skipped as non-modified), 4.2 MB
+0002.297 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.302 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.307 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.312 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.317 (0) Zip: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.318 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 501 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.646 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip.tmp: size is now: 3.20 MB
+0002.729 (0) Created others zip (0) - 3305.5 KB in 0.5 s (6561.9 KB/s) (sha1: 636f44857a8f66c42d036f36174c4b8ee3aa899b, sha256: 66f5e0524e183edb2c4f44c34149e310a2766ff578777405becb48a05a5b6f08)
+0002.735 (0) Saving backup status to database (elements: 8)
+0002.738 (0) Beginning creation of database dump (WordPress DB)
+0002.796 (0) Table tt_options: Total expected rows (approximate): 1731
+0002.849 (0) Table tt_options: Total rows added: 182 in 0.05 seconds
+0002.858 (0) Table tt_options: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_options.table.gz - 157 KB)
+0002.865 (0) Table tt_users: Total expected rows (approximate): 1
+0002.870 (0) Table tt_users: Total rows added: 1 in 0.00 seconds
+0002.877 (0) Table tt_users: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_users.table.gz - 0.6 KB)
+0002.884 (0) Table tt_usermeta: Total expected rows (approximate): 17
+0002.890 (0) Table tt_usermeta: Total rows added: 17 in 0.00 seconds
+0002.897 (0) Table tt_usermeta: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_usermeta.table.gz - 1 KB)
+0002.904 (0) Table tt_commentmeta: Total expected rows (approximate): 0
+0002.909 (0) Table tt_commentmeta: Total rows added: 0 in 0.00 seconds
+0002.917 (0) Table tt_commentmeta: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_commentmeta.table.gz - 0.4 KB)
+0002.924 (0) Table tt_comments: Total expected rows (approximate): 1
+0002.936 (0) Table tt_comments: Total rows added: 1 in 0.01 seconds
+0002.943 (0) Table tt_comments: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_comments.table.gz - 0.7 KB)
+0002.951 (0) Table tt_links: Total expected rows (approximate): 0
+0002.956 (0) Table tt_links: Total rows added: 0 in 0.00 seconds
+0002.964 (0) Table tt_links: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_links.table.gz - 0.4 KB)
+0002.971 (0) Table tt_postmeta: Total expected rows (approximate): 406
+0002.981 (0) Table tt_postmeta: Total rows added: 371 in 0.01 seconds
+0002.990 (0) Table tt_postmeta: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_postmeta.table.gz - 4.6 KB)
+0002.996 (0) Table tt_posts: Total expected rows (approximate): 39
+0003.005 (0) Table tt_posts: Total rows added: 39 in 0.01 seconds
+0003.012 (0) Table tt_posts: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_posts.table.gz - 2.8 KB)
+0003.019 (0) Table tt_term_relationships: Total expected rows (approximate): 1
+0003.024 (0) Table tt_term_relationships: Total rows added: 1 in 0.00 seconds
+0003.032 (0) Table tt_term_relationships: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_term_relationships.table.gz - 0.4 KB)
+0003.039 (0) Table tt_term_taxonomy: Total expected rows (approximate): 1
+0003.044 (0) Table tt_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0003.052 (0) Table tt_term_taxonomy: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_term_taxonomy.table.gz - 0.4 KB)
+0003.059 (0) Table tt_termmeta: Total expected rows (approximate): 0
+0003.064 (0) Table tt_termmeta: Total rows added: 0 in 0.00 seconds
+0003.071 (0) Table tt_termmeta: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_termmeta.table.gz - 0.4 KB)
+0003.076 (0) Table tt_terms: Total expected rows (approximate): 1
+0003.081 (0) Table tt_terms: Total rows added: 1 in 0.00 seconds
+0003.089 (0) Table tt_terms: finishing file (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_terms.table.gz - 0.4 KB)
+0003.096 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_options.table.gz (1/12): adding to final database dump
+0003.146 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_users.table.gz (2/12): adding to final database dump
+0003.148 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_usermeta.table.gz (3/12): adding to final database dump
+0003.150 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_commentmeta.table.gz (4/12): adding to final database dump
+0003.150 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_comments.table.gz (5/12): adding to final database dump
+0003.151 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_links.table.gz (6/12): adding to final database dump
+0003.152 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_postmeta.table.gz (7/12): adding to final database dump
+0003.155 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_posts.table.gz (8/12): adding to final database dump
+0003.158 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_term_relationships.table.gz (9/12): adding to final database dump
+0003.159 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_term_taxonomy.table.gz (10/12): adding to final database dump
+0003.160 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_termmeta.table.gz (11/12): adding to final database dump
+0003.161 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db-table-tt_terms.table.gz (12/12): adding to final database dump
+0003.162 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db.gz: finished writing out complete database file (160 KB)
+0003.183 (0) Total database tables backed up: 12 (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db.gz, size: 170154, sha256)
+0003.190 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0003.191 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0003.192 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0003.193 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip: others: This file has not yet been successfully uploaded: will queue
+0003.194 (0) backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0003.194 (0) Saving backup history. Total backup size: 11.6 MB
+0003.197 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0003.202 (0) Cloud backup selection (1/1): dropbox (last)
+0003.203 (0) Beginning dispatch of backup to remote (dropbox)
+0003.204 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0003.208 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0003.795 (0) Dropbox quota usage: used=77406.1 MB, total=1055232 MB, available=977825.9 MB
+0003.797 (0) Dropbox: Attempt to upload: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip to: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip
+0007.080 (0) Dropbox chunked upload: 13.9 % uploaded (AAAAAAABLJEfMmcEyNfiRQ, 1048576, 1536 KB)
+0012.912 (0) Dropbox chunked upload: 34.8 % uploaded (AAAAAAABLJEfMmcEyNfiRQ, 2621440, 1536 KB)
+0019.857 (0) Dropbox chunked upload: 55.7 % uploaded (AAAAAAABLJEfMmcEyNfiRQ, 4194304, 1536 KB)
+0024.485 (0) Dropbox chunked upload: 76.6 % uploaded (AAAAAAABLJEfMmcEyNfiRQ, 5767168, 2560 KB)
+0030.336 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABLJEfMmcEyNfiRQ, 7532058, 2560 KB)
+0033.391 (0) Recording as successfully uploaded: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip (5c5fab88a848a4849daaf965130f4b1e)
+0033.398 (0) Deleting local file: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip: OK
+0033.399 (0) Dropbox: File upload success (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-plugins.zip): 7355 KB in 29s (248 KB/s)
+0034.002 (0) Dropbox quota usage: used=77413.2 MB, total=1055232 MB, available=977818.8 MB
+0034.004 (0) Dropbox: Attempt to upload: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-themes.zip to: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-themes.zip
+0036.520 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABLJL29lmGiDq8FQ, 685266, 2560 KB)
+0038.685 (0) Recording as successfully uploaded: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-themes.zip (360d26c1b76086720050607cfe04958a)
+0038.691 (0) Deleting local file: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-themes.zip: OK
+0038.692 (0) Dropbox: File upload success (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-themes.zip): 669 KB in 4s (142 KB/s)
+0039.203 (0) Dropbox quota usage: used=77413.9 MB, total=1055232 MB, available=977818.1 MB
+0039.204 (0) Dropbox: Attempt to upload: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-uploads.zip to: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-uploads.zip
+0041.509 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABLJMUdM-ccPULpQ, 393390, 2560 KB)
+0043.532 (0) Recording as successfully uploaded: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-uploads.zip (0fc12ffe10d5abacb379ab608cb594d3)
+0043.537 (0) Deleting local file: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-uploads.zip: OK
+0043.538 (0) Dropbox: File upload success (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-uploads.zip): 384 KB in 4s (88 KB/s)
+0044.015 (0) Dropbox quota usage: used=77414.3 MB, total=1055232 MB, available=977817.7 MB
+0044.017 (0) Dropbox: Attempt to upload: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip to: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip
+0051.319 (0) Dropbox chunked upload: 77.4 % uploaded (AAAAAAABLJQwSd-zek_Xwg, 2621440, 3072 KB)
+0055.612 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABLJQwSd-zek_Xwg, 3384859, 3072 KB)
+0059.913 (0) Recording as successfully uploaded: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip (90cebd684de61e39c6f6d8734e782330)
+0059.919 (0) Deleting local file: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip: OK
+0059.919 (0) Dropbox: File upload success (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-others.zip): 3305 KB in 15s (207 KB/s)
+0060.425 (0) Dropbox quota usage: used=77417.5 MB, total=1055232 MB, available=977814.5 MB
+0060.426 (0) Dropbox: Attempt to upload: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db.gz to: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db.gz
+0062.480 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAABLJWFEuzn_vnt5Q, 170154, 3072 KB)
+0064.419 (0) Recording as successfully uploaded: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db.gz (737315e5d764fe49cd543e90aac5c11d)
+0064.425 (0) Deleting local file: backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db.gz: OK
+0064.426 (0) Dropbox: File upload success (backup_2017-05-16-1222_World_Cities_Top_Tramps_12d631a377f4-db.gz): 166 KB in 3s (41 KB/s)
+0064.429 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0064.431 (0) Number of backup sets in history: 1; groups (db): 1
+0064.431 (0) Examining (for databases) backup set with group_id=0, nonce=12d631a377f4, datestamp=1494937360 (May 16 2017 12:22:40)
+0064.432 (0) This backup set is the backup set just made, so will not be deleted.
+0064.433 (0) Number of backup sets in history: 1; groups (files): 1
+0064.433 (0) Examining (for files) backup set with nonce=12d631a377f4, datestamp=1494937360 (May 16 2017 12:22:40)
+0064.435 (0) This backup set is the backup set just made, so will not be deleted.
+0064.436 (0) This backup set is the backup set just made, so will not be deleted.
+0064.436 (0) This backup set is the backup set just made, so will not be deleted.
+0064.436 (0) This backup set is the backup set just made, so will not be deleted.
+0064.436 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0064.437 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0064.440 (0) Resume backup (12d631a377f4, 0): finish run
+0064.442 (0) Decremented the semaphore (fd) by 1
+0064.444 (0) Semaphore (fd) unlocked
+0064.445 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0064.448 (0) No email will/can be sent - the user has not configured an email address.
+0064.449 (0) The backup apparently succeeded and is now complete
