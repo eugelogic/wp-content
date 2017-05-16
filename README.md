@@ -3,7 +3,7 @@ Top Trump Tech Challenge
 
 Theme = World Cities
 
-Main Features
+Main Features:
 - [WordPress](https://wordpress.org/)
 - [Twenty Sixteen child theme](https://wordpress.org/themes/twentysixteen/)
 - [Custom post types](https://codex.wordpress.org/Post_Types#Custom_Post_Types)
