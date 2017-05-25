@@ -20,7 +20,7 @@ get_header(); ?>
   <button class="button" data-sort-value="green">Green space</button>
   <button class="button" data-sort-value="distance">Distance from London</button>
   <button class="button" data-sort-value="name">Name</button>
-</div>
+</div><!-- button-group sort-by-button-group -->
 
 <!-- CUSTOM LOOP TO SHOW CPT ON GRID
 ================================================== -->
@@ -56,11 +56,11 @@ get_header(); ?>
       </span><!-- tooltip -->
     </p>
     <p>From London:<span class="distance"> <?php the_field(distance); ?></span> miles</span></p>
-  </div>
+  </div><!-- cards -->
 
 <?php endwhile; ?>
 
-</div>
+</div><!-- grid -->
 
 <?php endif; ?>
 
