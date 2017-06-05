@@ -1,6 +1,6 @@
 <?php
 
-// This is the ACF version control file
+// This is the ACF version control file.
 // Every time I change something to the acf, I paste here the code I get from the "php export" feature.
 
 if(function_exists("register_field_group"))
